@@ -15,7 +15,7 @@ require('dotenv').config();
 connectDB();
 
 //Settings
-app.set('port',process.env.port || 3001)
+app.set('port',process.env.PORT || 3001)
 
 //MIDDLEWARES
 app.use(express.json()) // for parsing application/json
