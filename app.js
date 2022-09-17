@@ -2,9 +2,9 @@ const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
 const connectDB = require('./connectionDB')
-const userRouter = require('./routes/userRoutes')
-const conversationRouter = require('./routes/conversationRoutes')
-const messageRouter = require('./routes/messageRoutes')
+const userRouter = require('./src/routes/userRoutes')
+const conversationRouter = require('./src/routes/conversationRoutes')
+const messageRouter = require('./src/routes/messageRoutes')
 
 const app = express()
 
